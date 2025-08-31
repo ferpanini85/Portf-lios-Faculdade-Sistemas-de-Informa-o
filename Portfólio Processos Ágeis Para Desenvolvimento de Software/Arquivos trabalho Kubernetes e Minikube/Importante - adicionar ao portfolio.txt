@@ -1,0 +1,41 @@
+Notas para adicionar ao portfolio
+
+Após iniciar o Docker Desktop como Administrador
+
+Iniciar o Prompt de Comando Como Administrador e dar os comandos:
+
+minikube start --driver=docker
+
+minikube status
+minikube
+
+kubectl get nodes
+
+kubectl run meu-nginx --image=nginx --port=80
+
+kubectl get pods
+
+kubectl create deployment web --image=nginx
+
+kubectl scale deployment web --replicas=3
+
+kubectl get pods
+
+kubectl logs -f meu-nginx
+
+kubectl describe pod meu-nginx
+
+kubectl create deployment meu-nginx --image=k8s-minikube --port=80 --dry-run=client -o yaml >deployment.yaml - comando para criar o arquivo deployment.yaml
+
+notepad deployment.yaml - comando para abrir o arquivo deployment.yaml com o notepad
+
+
+minikube stop - não precisa adicionar ao portfolio
+
+minikube delete - não precisa adicionar ao portfolio
+
+
+
+
+
+

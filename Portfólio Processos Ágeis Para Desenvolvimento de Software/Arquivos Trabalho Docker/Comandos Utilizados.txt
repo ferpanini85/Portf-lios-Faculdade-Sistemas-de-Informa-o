@@ -1,0 +1,12 @@
+docker pull nginx - comando utilizado para baixar o arquivo
+
+docker run -d -p 8080:80 nginx - comando usado para rodar o arquivo no servidor
+
+docker buildx build -t app_docker . - comando para construir a imagem
+
+docker run -d -p 3000:3000 app_docker - comando utilizado para rodar o arquivo no servidor
+
+docker tag app_docker ferpan85/app_docker:1.0.0 - comando para criar a tag
+
+docker push ferpan85/app_docker:1.0.0 - comando para upar imagem para o Docker Hub
+
