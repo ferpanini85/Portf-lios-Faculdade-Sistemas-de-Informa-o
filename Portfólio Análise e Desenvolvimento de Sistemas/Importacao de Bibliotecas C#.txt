@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+    public static class Program
+    {
+        public static void Main()
+        {
+
+            int quadrado;
+
+            for(int i = 1; i <= 50; i++)
+            {
+
+                if(i % 2 ==0)
+                {
+                    quadrado = i * i;
+
+                    Console.WriteLine("O quadrado do número par é:" + quadrado);
+                 }
+            }
+        }   
+
+
+
+
+    }

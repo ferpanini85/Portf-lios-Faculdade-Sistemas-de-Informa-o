@@ -1,0 +1,25 @@
+using System;
+using System.Ling;
+using System.Collections.Generic;
+
+namespace QuadradoDosNumeros;
+
+public static class Program
+{
+    public static void Main()
+    {
+
+        int quadrado;
+
+        for(int i = 15; i <= 200; i++)
+        { 
+	   quadrado = i * i;
+
+           Console.WriteLine("O quadrado do número é:" + quadrado);
+        }
+		
+            
+    }
+
+
+}

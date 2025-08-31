@@ -1,0 +1,17 @@
+class program
+{
+
+    static void main(string[] args)
+    {   
+
+        int numero = 1;
+        while(numero <= 40)
+        {
+            Console.WriteLine(numero);
+            numero +=2;
+        }
+        Console.ReadKey();
+
+    }
+
+}
